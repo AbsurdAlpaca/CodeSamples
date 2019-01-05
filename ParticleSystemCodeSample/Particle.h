@@ -5,7 +5,8 @@
 \copyright  All content � 2017-2018 DigiPen (USA) Corporation, all rights reserved.
 \par        Project: Field Punk
 \brief
-This is the implementation for the particle class 
+This is the implementation for the particle class. A lightweight class that whose data
+is managed by a particle emitter.
 ******************************************************************************************/
 #pragma once
 #include "ParticleEmitter.h"

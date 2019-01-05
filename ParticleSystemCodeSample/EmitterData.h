@@ -2,10 +2,11 @@
 \file       EmitterData.h
 \author     Bhatwal, Ruchi
 \date       1/30/17
-\copyright  All content © 2017-2018 DigiPen (USA) Corporation, all rights reserved.
+\copyright  All content ï¿½ 2017-2018 DigiPen (USA) Corporation, all rights reserved.
 \par        Project: Field Punk
 \brief
-This is the interface for the emitterData struct
+This is the interface for the emitterData struct. This struct is just to encapsulate the
+data that the client defines in the editor.
 ******************************************************************************************/
 #pragma once
 

@@ -2,10 +2,11 @@
 \file       ParticleEmitter.cpp
 \author     Bhatwal, Ruchi
 \date       1/23/18
-\copyright  All content © 2017-2018 DigiPen (USA) Corporation, all rights reserved.
+\copyright  All content ï¿½ 2017-2018 DigiPen (USA) Corporation, all rights reserved.
 \par        Project: Field Punk
 \brief
-This is the implementation for the particle emitter class
+This is the implementation for the particle emitter class. This is a component that
+handles the particle emitter's movement as a whole. 
 ******************************************************************************************/
 
 #include "ParticleEmitter.h"
