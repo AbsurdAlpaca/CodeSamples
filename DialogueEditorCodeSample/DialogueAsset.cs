@@ -24,8 +24,8 @@ public class DialogueAsset : ScriptableObject
         m_dialogueData = new Dictionary<int, DialogueData>();
     }
 
-	// edit here when dialogue data changes
-	public void LoadRuntimeSaveData()
+    // edit here when dialogue data changes
+    public void LoadRuntimeSaveData()
     {
         m_dialogueData = new Dictionary<int, DialogueData>();
 
@@ -52,8 +52,8 @@ public class DialogueAsset : ScriptableObject
                 dialogue.m_nextDialogueData.Add(int.Parse(data[data_index++]));
             }
 
-			m_dialogueData.Add(dialogue.node_id, dialogue);
+            m_dialogueData.Add(dialogue.node_id, dialogue);
         }
         m_startIndex = int.Parse(data[data_index++]);
-	}
+    }
 }

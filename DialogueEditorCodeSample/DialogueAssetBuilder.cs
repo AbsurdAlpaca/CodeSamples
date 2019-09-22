@@ -141,8 +141,8 @@ public class DialogueAssetBuilder : ScriptableObject
 
         string[] data = m_dialogueAsset.m_assetData.Split("`".ToCharArray());
         int data_index = 0;
-		if (data.Length <= 1) // no data in the asset at the moment
-			return;
+        if (data.Length <= 1) // no data in the asset at the moment
+            return;
 
         // load connections
         int connectionCount = int.Parse(data[data_index++]);
